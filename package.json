@@ -4,10 +4,13 @@
   "description": "This package uses the CPUID asm code to return the 4, 32bit values of the cpu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
   },
   "keywords": [
-    "cpuid", "cpu", "id"
+    "cpuid",
+    "cpu",
+    "id"
   ],
   "author": "Penagwin",
   "license": "MIT",
@@ -15,5 +18,14 @@
     "bindings": "^1.2.1",
     "nan": "^1.3.0"
   },
-  "gypfile": true
+  "gypfile": true,
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penagwin/asmcpuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Penagwin/asmcpuid/issues"
+  },
+  "homepage": "https://github.com/Penagwin/asmcpuid#readme"
 }
